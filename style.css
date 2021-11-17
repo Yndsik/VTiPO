@@ -1,0 +1,88 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+
+span.foot_class {
+    color: #F90;
+    font-weight: bold;
+}
+
+.sidenav {
+    width: 140px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #2196F3;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #064579;
+}
+
+.main {
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+* {
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+
+div {
+    display: block;
+}
+
+div#footer a.block{
+    color: #f90;
+}
+#footer {
+    min-width: 875px;
+    max-width: 4000px;
+    height: 51px;
+    background: #015;
+    border-bottom: 3px solid #002;
+    color: #999;
+    padding: 0;
+}
+
+#menu2 {
+    font-size: 11px;
+    position: relative;
+    top: 7px;
+    line-height: 170%;
+    margin: 0 0 0 208px;
+    padding: 1px 0 0;
+}
+
+span.foot_class {
+    color: #F90;
+    font-weight: bold;
+}
+
+#menu3 img {
+    float: right;
+    padding-right: 17px;
+    position: relative;
+    bottom: 27px;
+    margin-bottom: -18px
+;
+}
